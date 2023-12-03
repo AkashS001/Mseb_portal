@@ -91,7 +91,8 @@ const handleChangeYN1 = (event) => {
                 </Grid>
                 {/* theftDetectedBy */}
                 <Grid xs={3} sm={2} item>
-                  <TextField label="Case Inspected By" placeholder=" " name="flyingSquadUnit" varient="filled" autocomplete="off"  fullWidth required />
+                  <TextField label="Case Inspected By" placeholder="
+                   " name="flyingSquadUnit" varient="filled" autocomplete="off"  fullWidth required />
                 </Grid>
 
                 <Grid xs={3} sm={2} item>
