@@ -25,6 +25,7 @@ export const Table = () => {
        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       <ThemeProvider theme={defaultMaterialTheme}>
       <MaterialTable columns={columns} data={tableData} 
+      title={"Details of Connected Load"}
       editable={{
         onRowAdd:(newRow)=> new Promise((resolve,reject)=>{
           newRow.totLoad=Number(newRow.quantity)*Number(newRow.capacity);

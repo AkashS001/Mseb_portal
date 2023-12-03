@@ -21,6 +21,7 @@ export const CurrentVoltTable = () => {
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       <ThemeProvider theme={defaultMaterialTheme}>
       <MaterialTable columns={columns} data={tableData} 
+      title={"Current and Volt Measurement"}
       editable={{
         onRowAdd:(newRow)=> new Promise((resolve,reject)=>{
           

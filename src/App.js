@@ -6,6 +6,8 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import { ThemeProvider, styled } from "styled-components";
 import { GlobalStyle } from "./Components/GlobalStyle";
+import Form_Phase1 from "./Components/Form_Phase1";
+import HtForm from "./Components/HtForm"
 function App() {
   const theme={
     colors : {
@@ -27,6 +29,8 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/Form" element={<Form/>}/>
+          <Route path="/Form_Phase1" element={<Form_Phase1/>}/>
+          <Route path="/HtForm" element={<HtForm/>}/>
         </Routes>
       </div>
       <Footer/>
